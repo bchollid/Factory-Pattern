@@ -1,11 +1,8 @@
 ﻿using System;
 namespace FactoryPattern
 {
-	public class VehicleFactory
+	public static class VehicleFactory
 	{
-		public VehicleFactory()
-		{
-		}
 
 		public static IVehicle GetVehicle(int wheelInput)
 		{
